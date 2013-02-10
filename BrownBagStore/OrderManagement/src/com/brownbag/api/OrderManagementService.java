@@ -7,5 +7,6 @@ package com.brownbag.api;
  *
  */
 public interface OrderManagementService {
+	public void createOrder(Stirng symbol, int quantity, BigDecimal money);
 
 }
