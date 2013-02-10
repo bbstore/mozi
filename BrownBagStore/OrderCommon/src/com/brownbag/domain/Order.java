@@ -16,6 +16,8 @@ public class Order {
 	private ShippingData shippingData;
 	private CouponData couponData;
 	
+	private String email;
+
 	public Order(String id) {
 		super();
 		
